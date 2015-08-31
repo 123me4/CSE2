@@ -24,4 +24,4 @@ public class HelloWorld{
         
         //test/testtest
     }
-}
+}main
