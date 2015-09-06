@@ -11,6 +11,7 @@
 public class Cyclometer{
 
     public static void main (String[] args) {
+        //define
         double wheelDiameter=27.0,  //diameter of wheel
         PI=3.14159, //circle constant
         feetPerMile=5280,  //# of feet in 1 mile
