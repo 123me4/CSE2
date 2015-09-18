@@ -15,13 +15,13 @@ public class Timer{
         int currentTime = myScanner.nextInt();
         System.out.print("Enter the time of dinner in the form HHMM (military time): ");
         int dinnerTime = myScanner.nextInt();
-     
+        //more variables
         int difference = dinnerTime - currentTime;
         int hours, minutes;
-        
+        //calculations
         hours = (int) (difference/100.0);
         minutes = difference - hours*100;
-        
+        //print out answer
         System.out.println("You have " + hours + " hours and " + minutes + " minutes until dinner.");
     }
 }
