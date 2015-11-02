@@ -1,5 +1,6 @@
 public class anotherTest{
     public static void main(String[] args) {
-        System.out.println( (int) 'a'); 
+        int blah = (int) (Math.random()*1596);
+        System.out.println( blah + ""); 
     }
 }
